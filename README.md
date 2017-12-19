@@ -4,7 +4,7 @@ With this module you will be able to acces and manage your [Reeleezee] account v
 
 ## Credentials
 
-You need to place your credentials in your Coldbox.cfc file like this:
+You need to place your credentials in your `Coldbox.cfc` file like this:
 
 ```
 reeleezee = {
@@ -14,7 +14,7 @@ reeleezee = {
 }
 ```
 
-### Retrieve objects
+## Retrieve objects
 
 Once it's configured you can access everything in your Reeleezee account in this way:
 
@@ -23,7 +23,7 @@ Once it's configured you can access everything in your Reeleezee account in this
 
 etc.
 
-### Example of use:
+## Example of use:
 
 ```
 property name="profitandlossesservice" inject="models.reeleezee.interface.profitandlosses.Profitandlossesservice";
