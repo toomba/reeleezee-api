@@ -1,6 +1,6 @@
 # Reeleezee API
 
-With this module you will be able to acces and manage your [Reeleezee] account via API
+With this module you will be able to access and manage your [Reeleezee] account via API
 
 ## Credentials
 

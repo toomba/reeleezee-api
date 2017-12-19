@@ -2,11 +2,11 @@
     "name":"Reeleezee API",
     "version":"1.0.0",
     "author":"Toomba",
-    "location":"",
+    "location":"https://github.com/pablotoomba/reeleezee-api",
     "directory":"",
     "createPackageDirectory":true,
     "packageDirectory":"",
-    "homepage":"",
+    "homepage":"https://github.com/pablotoomba/reeleezee-api",
     "documentation":"",
     "repository":{
         "type":"",
@@ -14,12 +14,12 @@
     },
     "bugs":"",
     "slug":"reeleezee-api",
-    "shortDescription":"CF Library for managing Reeleezee",
+    "shortDescription":"CF Version of the Reeleezee API",
     "description":"",
     "instructions":"",
     "changelog":"",
     "type":"",
-    "keywords":"",
+    "keywords":"reeleezee",
     "private":false,
     "engines":[
         {
@@ -46,7 +46,7 @@
         
     },
     "installPaths":{
-        "reeleezee" : "models/reeleezee"
+        "reeleezee":"models/reeleezee"
     },
     "scripts":{
         
