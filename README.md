@@ -1,6 +1,25 @@
 # Reeleezee API
 
-With this module you will be able to access and manage your [Reeleezee] account via API
+With this module you will be able to access and manage your [Reeleezee] account via API. It implements the most of the functionalities of the API. For modifications or new functionalities, please check the official [Reeleezee Api] documentation.
+
+## Installation
+
+Via CommandBox, by executing the next line (with parameters if needed):
+
+```box install reeleezee-api```
+
+Via `box.json`, just add the correspondent lines:
+```
+    "devDependencies":{
+        "reeleezee-api":"1.0.1"
+    },
+    "installPaths":{
+        "reeleezee-api":"models/reeleezee-api"
+    },
+    "dependencies":{
+        "reeleezee-api":"^1.0.1"
+    }
+```
 
 ## Credentials
 
@@ -32,3 +51,4 @@ prc.profitandlosses = Profitandlossesservice.getProfitAndLossesForYear(year=prc.
 ```
 
    [Reeleezee]: <https://www.reeleezee.nl/>
+   [Reeleezee Api]: <https://www.reeleezee.nl/developer/docs/api/>
