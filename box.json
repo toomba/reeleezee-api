@@ -2,15 +2,15 @@
     "name":"Reeleezee API",
     "version":"1.0.0",
     "author":"Toomba",
-    "location":"https://github.com/pablotoomba/reeleezee-api/archive/1.0.0.zip",
+    "location":"https://github.com/toomba/reeleezee-api/archive/1.0.1.zip",
     "directory":"",
     "createPackageDirectory":true,
     "packageDirectory":"",
-    "homepage":"https://github.com/pablotoomba/reeleezee-api",
+    "homepage":"https://github.com/toomba/reeleezee-api",
     "documentation":"",
     "repository":{
         "type":"git",
-        "URL":"https://github.com/pablotoomba/reeleezee-api"
+        "URL":"https://github.com/toomba/reeleezee-api"
     },
     "bugs":"",
     "slug":"reeleezee-api",
