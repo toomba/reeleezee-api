@@ -1,8 +1,8 @@
 {
     "name":"Reeleezee API",
-    "version":"1.0.0",
+    "version":"1.0.2",
     "author":"Toomba",
-    "location":"https://github.com/toomba/reeleezee-api/archive/1.0.1.zip",
+    "location":"https://github.com/toomba/reeleezee-api/archive/1.0.2.zip",
     "directory":"",
     "createPackageDirectory":true,
     "packageDirectory":"",
@@ -37,22 +37,22 @@
         }
     ],
     "contributors":[
-        
+
     ],
     "dependencies":{
-        
+
     },
     "devDependencies":{
-        
+
     },
     "installPaths":{
         "reeleezee":"models/reeleezee"
     },
     "scripts":{
-        
+
     },
     "ignore":[
-        
+
     ],
     "testbox":{
         "runner":[
@@ -61,7 +61,7 @@
             }
         ],
         "labels":[
-            
+
         ],
         "reporter":"",
         "reporterResults":"",
@@ -73,11 +73,11 @@
             "recurse":true
         },
         "watchers":[
-            
+
         ],
         "notify":{
             "emails":[
-                
+
             ],
             "growl":"",
             "URL":""
