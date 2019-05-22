@@ -1,7 +1,7 @@
 component accessors="true" output="false" {
 
 	property name="settings" 			inject="coldbox:setting:reeleezee";
-	property name="periodRepository"	inject="PeriodRepository";
+	property name="periodRepository"	inject="models.reeleezee.infrastructure.period.PeriodRepository";
 
 	public models.reeleezee.infrastructure.profitandlosses.ProfitAndLossesRepository function init() {
 		return this;

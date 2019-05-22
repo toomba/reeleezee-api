@@ -1,6 +1,6 @@
 component extends="models.reeleezee.infrastructure.api.ApiRepository" accessors="true" output="false" {
 
-	property name="CountryRepository" inject="CountryRepository";
+	property name="CountryRepository" inject="models.reeleezee.infrastructure.country.CountryRepository";
 
 
 	public models.reeleezee.infrastructure.address.AddressRepository function init() {

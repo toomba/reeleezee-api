@@ -2,8 +2,8 @@ component accessors="true" output="false" {
 
 	// Get invoice settings
 	property name="invoiceSettings" inject="coldbox:setting:invoice";
-	property name="InvoiceRepository" inject="InvoiceRepository";
-	property name="UnitOfMeasurementService" inject="UnitOfMeasurementService";
+	property name="InvoiceRepository" inject="models.reeleezee.infrastructure.invoice.InvoiceRepository";
+	property name="UnitOfMeasurementService" inject="models.reeleezee.app.unitofmeasurement.UnitOfMeasurementService.cfcUnitOfMeasurementService";
 
 	// Replace with service as this is code wise not pretty....
 	property name="CustomerRepository" inject="CustomerRepository";

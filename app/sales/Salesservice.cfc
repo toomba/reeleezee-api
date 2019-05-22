@@ -1,6 +1,6 @@
 component accessors="true" output="false" {
 
-	property name="salesRepository" inject="salesRepository";
+	property name="salesRepository" inject="models.reeleezee.infrastructure.sales.salesRepository";
 
 	public models.reeleezee.app.sales.Salesservice function init() {
 		return this;

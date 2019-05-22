@@ -1,6 +1,6 @@
 component accessors="true" output="false" {
 
-	property name="profitandlossesRepository" inject="ProfitAndLossesRepository";
+	property name="profitandlossesRepository" inject="models.reeleezee.infrastructure.profitandlosses.ProfitAndLossesRepository";
 
 	public models.reeleezee.app.profitandlosses.Profitandlossesservice function init() {
 		return this;

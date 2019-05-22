@@ -1,8 +1,8 @@
 component extends="models.reeleezee.infrastructure.api.ApiRepository" accessors="true" output="false" {
 
-	property name="CountryRepository" inject="CountryRepository";
-	property name="LanguageRepository" inject="LanguageRepository";
-	property name="AddressRepository" inject="AddressRepository";
+	property name="CountryRepository" inject="models.reeleezee.infrastructure.country.CountryRepository";
+	property name="LanguageRepository" inject="models.reeleezee.infrastructure.language.LanguageRepository";
+	property name="AddressRepository" inject="models.reeleezee.infrastructure.address.AddressRepository";
 
 	public models.reeleezee.infrastructure.customer.CustomerRepository function init() {
 		// Extending requires initing the super init.

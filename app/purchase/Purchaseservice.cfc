@@ -1,6 +1,6 @@
 component accessors="true" output="false" {
 
-	property name="PurchaseRepository" inject="PurchaseRepository";
+	property name="PurchaseRepository" inject="models.reeleezee.infrastructure.purchase.PurchaseRepository";
 
 	public models.reeleezee.app.purchase.Purchaseservice function init() {
 		return this;
