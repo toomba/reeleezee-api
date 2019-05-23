@@ -1,9 +1,9 @@
 component accessors="true" output="false" {
 
 	property name="settings" inject="coldbox:setting:reeleezee";
-	property name="apiUrl" type="string"; 
+	property name="apiUrl" type="string";
 
-	property name="jsonSerializer" inject="jsonSerializer";
+	property name="jsonSerializer" inject="models.reeleezee.models.serializer.app.JSONSerializer";
 
 	public models.reeleezee.infrastructure.api.ApiRepository function init() {
 		variables.apiUrl = "https://portal.reeleezee.nl/api/v1";
@@ -66,7 +66,7 @@ component accessors="true" output="false" {
 			case "204 No Content":
 
 				if(method EQ "PUT"){
-					rc = true;	
+					rc = true;
 				}else{
 					rc = false;
 				}
